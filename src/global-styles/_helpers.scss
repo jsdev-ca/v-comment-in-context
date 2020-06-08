@@ -1,0 +1,18 @@
+// Q: `!important`??
+// A: Yes. Here’s why: https://csswizardry.com/2016/05/the-importance-of-important/
+
+// Rather than adding a helpers file like this, it might be prudent to use a
+// CSS utility library like Tailwind CSS (https://tailwindcss.com/) instead if
+// the project is sufficiently large.
+
+.flex {
+  display: flex !important;
+}
+
+.inline-block {
+  display: inline-block !important;
+}
+
+.bold {
+  font-weight: 700 !important;
+}

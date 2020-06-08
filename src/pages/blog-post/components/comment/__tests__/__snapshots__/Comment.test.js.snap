@@ -1,0 +1,106 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Comment matches the existing snapshot 1`] = `
+<div
+  class="container"
+>
+  <div
+    style="margin: 0px 10px;"
+  >
+    <avatar-stub
+      alt="The avatar of the commenter, Yoda."
+      data-testid="avatar"
+      url="../../../static/yoda.png"
+    />
+  </div>
+   
+  <div
+    style="margin: 0px 10px;"
+  >
+    <div
+      class="metadata"
+    >
+      <div
+        class="bold"
+      >
+        
+        Yoda
+      
+      </div>
+       
+      <badge-stub
+        styles="[object Object]"
+        text="author"
+      />
+       
+      <!---->
+    </div>
+     
+    <p
+      class="comments"
+    >
+      
+      Turned to the dark side, Anakin Skywalker has.
+    
+    </p>
+     
+    <div
+      class="calls-to-action"
+    >
+      <button
+        aria-label="respond to Yoda’s comment"
+      >
+        
+        Reply
+      
+      </button>
+       
+      <button
+        aria-label="read the 100 replies to Yoda’s comment"
+        style="cursor: pointer;"
+      >
+        <span
+          style="margin-right: 5px;"
+        >
+          
+          100
+        
+        </span>
+        
+        replies
+      
+      </button>
+       
+      <div
+        class="upvotes"
+      >
+        <button
+          aria-label="upvote Yoda’s comment"
+        >
+          <i
+            class="gg-chevron-up"
+          />
+        </button>
+        
+        1000
+      
+      </div>
+       
+      <div
+        class="downvotes"
+      >
+        <button
+          aria-label="downvote Yoda’s comment"
+        >
+          <i
+            class="gg-chevron-down"
+          />
+        </button>
+        
+        1
+      
+      </div>
+    </div>
+  </div>
+</div>
+`;

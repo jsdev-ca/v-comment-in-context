@@ -1,0 +1,29 @@
+[
+  {
+    "id": 1,
+    "author": "Brad",
+    "avatarFilename": "brad-scott.png",
+    "comments": [
+      "So what the German automaker is likely to focus on today is the bigger picture. This will be the first time we see the Taycan free from any prototype bodywork."
+    ],
+    "contributorType": "author",
+    "downvotes": 0,
+    "numReplies": 21,
+    "upvotes": 123,
+    "whenCommentWasPosted": "2 minutes ago"
+  },
+  {
+    "id": 2,
+    "author": "Yadina",
+    "avatarFilename": "yadina-riddle.png",
+    "comments": [
+      "Spicy jalapeno bacon ipsum dolor amet ball tip tongue andouille, chuck capicola ham hock fatback tail. Sirloin corned beef shoulder tongue.",
+      "Short loin andouille leberkas, corned beef doner shoulder jowl buffalo beef t-bone alcatra. Brisket leberkas turkey, ribeye sirloin."
+    ],
+    "contributorType": "guest",
+    "downvotes": 6,
+    "numReplies": 89,
+    "upvotes": 987,
+    "whenCommentWasPosted": "4 minutes ago"
+  }
+]

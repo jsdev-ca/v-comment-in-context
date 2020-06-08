@@ -1,0 +1,27 @@
+html {
+  color: #333;
+
+  // Q: Why aren’t Arial and Helvetica listed before Sans-Serif?
+  // A: https://css-tricks.com/sans-serif/
+  font-family: Sans-Serif;
+
+  // Q: Why `62.5%`?
+  // A: It has something to do with using `rem` as our font size unit:
+  //    https://developer.mozilla.org/en-US/docs/Web/CSS/font-size#Rems 
+  //    https://snook.ca/archives/html_and_css/font-size-with-rem
+  font-size: 62.5%;
+
+  font-stretch: normal;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: 400;
+  text-size-adjust: 100%;
+}
+
+body {
+  font-size: 1.6rem;
+
+  // Q: Why `1.5`?
+  // A: https://www.w3.org/TR/WCAG20-TECHS/C21.html
+  line-height: 1.5;
+}

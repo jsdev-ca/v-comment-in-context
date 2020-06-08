@@ -1,0 +1,8 @@
+:root {
+  --grey: #777;
+
+  // Would need to speak with the designer(s) about this colour, as it
+  // doesn’t meet the minimum colour contrast ratio for accessibility:
+  // https://webaim.org/resources/contrastchecker/.
+  --silver: #bababa;
+}
