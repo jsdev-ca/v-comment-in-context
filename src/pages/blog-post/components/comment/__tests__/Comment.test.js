@@ -40,7 +40,7 @@ describe('Comment', () => {
     it('has a `url` attribute with a valid value when the filename is valid', () => {
       /**
        * Alas, we can’t get our avatar stub via `getByAltText(
-       *   /^The avatar of the commenter, .+$/i
+       *   /^The avatar of the commenter, .+\.$/
        * )`. Oh well.
        */
       const { getByTestId } = render(Comment, localOptions);
@@ -81,10 +81,8 @@ describe('Comment', () => {
       it('is disabled', () => {
         localOptions.propsData.numReplies = 0;
 
-        const { getByText } = render(Comment, localOptions);
-        const showReplyButton = getByText((content, element) => {
-          return element.tagName.toLowerCase() === 'span' && content === '0';
-        });
+        const { getByLabelText } = render(Comment, localOptions);
+        const showReplyButton = getByLabelText(/^read the 0 replies to .+’s comment$/);
 
         expect(showReplyButton).toBeDisabled();
       });
